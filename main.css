@@ -188,14 +188,14 @@ main #gradiant {
 
 
 .headline {
-    font-size: 34.1px;
     font-weight: 800;
     color:  #131022;
     margin: 2rem;
-    
 }
+    
+    
 
-.div1 p {
+#gradiant p {
     color: #585C7B;
     font-size: 18px;
     font-weight: 400;
@@ -208,36 +208,31 @@ main #gradiant {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-}
-
-.btn {
-    color: transparent;
-    background-color: black;
-    border: none;
-    cursor: pointer;
-}
-
-.imgs2 {
+    gap: 1rem;
     margin-top: 3rem;
-    background-color: #131022;
-    border-radius: 8px;
-    height: 50.41px;
-    width: 366,4px;
-    padding: 8.8px 121.2px;
-    
 }
-.imgs3 {
-    margin-top: 1rem;
-    background-color: #131022;
+    
+.btn {
+    background: transparent;
+    border: var(--color-dark) solid;
     border-radius: 8px;
-    height: 50.41px;
-    width: 366,4px;
-    padding: 8.8px 113.7px;
+    height: 50px;
+    background-color: var(--color-dark);
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+
+    cursor: pointer;
+    overflow:hidden;
+   
     
 }
 
-.btn2 {
+    
+
+
+.knapp2 {
     height: 44px;
     width: 44px;
     padding: 12px;
@@ -256,6 +251,7 @@ main #gradiant {
     align-items: center;
     margin-top: 2rem;
     margin-bottom: 3rem;
+    gap: 1rem;
     
     
 }
