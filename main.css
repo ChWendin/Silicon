@@ -176,23 +176,18 @@ header .container {
 
 
 
-
-
-/* section1 */
-
-
-.div1 {
-    
+main #gradiant {
     text-align: center;
-    
     background: radial-gradient(120.91% 118.4% at 50% 100%, rgba(99, 102, 241, 0.10) 0%, rgba(218, 70, 239, 0.05) 41.83%, rgba(241, 244, 253, 0.07) 82.52%);
 }
+    
+    
 
 
 
 
 
-.Header {
+.headline {
     font-size: 34.1px;
     font-weight: 800;
     color:  #131022;
