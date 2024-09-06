@@ -416,6 +416,8 @@ padding-left: 2rem;
 padding-right: 2rem;
 }
 
+
+
 @media (min-width: 768px) {
     .container {
         max-width: 720px;
@@ -427,12 +429,20 @@ padding-right: 2rem;
             gap: 3rem;
         }
 
+
+
+
         .footer {
             display: flex;
             justify-content: center;
             gap: 4px;
             }
     }
+
+
+
+
+
 
     @media (min-width: 1400px) {
         .container {
@@ -452,6 +462,9 @@ padding-right: 2rem;
             display: none;
             
         }
+
+
+
 
         .footer {
             display: flex;
