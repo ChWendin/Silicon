@@ -431,7 +431,10 @@ padding-right: 2rem;
         .imgs p {
             text-align: left;  
         }
-
+        
+        #imgs #app-google {
+         flex-direction: row;
+        }
        
           
             
@@ -456,12 +459,10 @@ padding-right: 2rem;
             grid-row: 6 / -1;   
         }
 
-        #imgs #app-google {
-         
-        }
         
         #bild-mobiles {
-            display: block;
+            display: flex;
+            align-items: baseline;
             z-index: 10;
             grid-column: 5 / -1;
             grid-row: 5 / -1;
