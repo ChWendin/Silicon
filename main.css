@@ -188,6 +188,7 @@ main {
 
 
 .headline {
+    font-size: 18px;
     font-weight: 800;
     color:  #131022;
     display: flex;
@@ -204,6 +205,7 @@ margin: 0;
     
 
 #gradiant p {
+    text-align: center;
     color: #585C7B;
     font-size: 18px;
     font-weight: 400;
@@ -442,25 +444,43 @@ padding-right: 2rem;
             gap: 3rem;
         }
 
-        .imgs p {
-            text-align: left;  
-        }
-
        
-            
-        
-     
+
         #imgs #app-google {
-            margin-top: 3.5rem;
+            margin-top: 1rem;
             flex-direction: row;
-            gap: 0;
-            width: auto;
+        }
+            
+
+        .btn {
+            height: 44px;
+        }
+            
+            
+
+        .btn-store {
+            height: 100%;
+            width: 90px;
         }
 
         #gradiant p {
+            text-align: left;
             margin: 0;
-            
         }
+
+        .knapp {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            margin-right: 4rem;
+        }
+
+     
+           
+            
+            
+            
+            
+            
      
         #gradiant {
             display: grid;
@@ -469,7 +489,12 @@ padding-right: 2rem;
         }
          
        
-          
+    
+            
+       
+            
+        
+     
             
             
 
@@ -477,9 +502,9 @@ padding-right: 2rem;
         
         
         #headline {
-          
+        margin-top: 0;  
         grid-column: 1 / -1;
-        grid-row: 1 / 4;   
+        grid-row: 1 / 6;   
         }
         
         #imgs {
