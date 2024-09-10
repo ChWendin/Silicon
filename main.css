@@ -287,9 +287,7 @@ margin: 0;
 
 
 /* section2 */
-.wrapper2 {
-    margin: 1rem;
-}
+
 
 .div2 {
 display: flex;
@@ -323,12 +321,14 @@ flex-direction: column;
 .cards h3 {
     font-size: 20px;
     font-weight: 800;
+    
 }
 
 .cards p {
     font-size: 16px;
     font-weight: 400;
     margin-top: 1rem;
+    
     
     
 }
@@ -345,22 +345,31 @@ flex-direction: column;
     
 }
 
+.flex2 {
+flex-direction: column;
+}
+
+.flex1 {
+display: flex;
+padding-top: 1.5rem;
+}
+
+
+
+
+
+
+
+
 .card1 {
     display: flex;
     gap: 1rem;
     margin-top: 3rem;
 }
 
-
-
-
-.flex2 {
-flex-direction: column;
-}
-
-
 .card2 {
     display: flex;
+   
     gap: 1rem;
     margin-top: 3rem;
     
@@ -379,11 +388,13 @@ flex-direction: column;
     }
 .card5 {
     display: flex;
+ 
     gap: 1rem;
     margin-top: 3rem;
     }
 .card6 {
     display: flex;
+   
     gap: 1rem;
     margin-top: 3rem;
 }
