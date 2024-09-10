@@ -295,6 +295,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 
+
 }
 
 .div2 h2 {
@@ -303,13 +304,13 @@ flex-direction: column;
 }
 
 .div2 p {
-    
-
     text-align: center;
     color: #585C7B;
     font-size: 18px;
     font-weight: 400;
 }
+    
+
 
 .cards {
     display: flex;
@@ -526,33 +527,12 @@ padding-right: 2rem;
             margin-right: 4rem;
         }
 
-     
-           
-            
-            
-            
-            
-            
-     
         #gradiant {
             display: grid;
             grid-template-columns: repeat(12, 1fr);
             grid-template-rows: repeat(12, 1fr);
         }
-         
-       
-    
-            
-       
-            
-        
      
-            
-            
-
-        
-        
-        
         #headline {
         margin-top: 0;  
         grid-column: 1 / -1;
@@ -576,6 +556,42 @@ padding-right: 2rem;
             grid-column: 5 / -1;
             grid-row: 5 / -1;
         }
+
+        .cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            margin-bottom: 6rem;
+        }
+
+    .div2 p {
+            font-size: 18px;
+            
+  
+        }
+      
+            
+           
+            
+            
+            
+            
+            
+     
+         
+       
+    
+            
+       
+            
+        
+     
+            
+            
+
+        
+        
+        
 
         
 
