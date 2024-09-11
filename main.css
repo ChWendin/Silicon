@@ -249,8 +249,11 @@ margin: 0;
    
 .bild-mobiles {
     display: none;
-    
 }    
+.bild-mobiles2 {
+    display: none;
+}    
+    
 
     
 
@@ -554,9 +557,6 @@ padding-right: 2rem;
             grid-row: 6 / -1; 
         }
         
-      
-
-        
         #bild-mobiles {
             display: flex;
             align-items: baseline;
@@ -564,7 +564,12 @@ padding-right: 2rem;
             grid-column: 5 / -1;
             grid-row: 5 / -1;
         }
+      
 
+        
+
+       
+       
         .cards {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -637,7 +642,7 @@ padding-right: 2rem;
         } 
         header .container {
             grid-template-columns: auto 1fr auto auto;
-            gap: 2rem;
+            gap: 4rem;
         }
         #signin {
             display: block;
@@ -647,7 +652,65 @@ padding-right: 2rem;
         }
         .mobile-menu {
             display: none;
+        }
+        
+        #bild-mobiles {
+        display: none;
+        }
+
+
+        #headline {
+            display: flex;
+            justify-content: left;
+            align-items: baseline;
+            font-size: 20px;
+            margin-top: 0;  
+            grid-column: 1 / 6;
+            grid-row: 3 / 5;   
+            }
             
+            #imgs {
+                z-index: 100;
+                grid-column: 1 / 6;
+                grid-row: 5 / -1; 
+                margin-top: 0;
+                gap: 1.5rem;
+                display: grid;
+                grid-template-rows: auto auto 1fr;
+            }
+
+            #imgs p {
+            padding-right: 4rem;
+            }
+            #app-google {
+                display: flex;
+                justify-content: left;
+            }
+            .knapp {
+                display: flex;
+                justify-content: left;
+                margin-top: 12rem;
+            }
+                
+            
+            
+            
+            .btn {
+                height: 44px;
+                max-width: 180px;
+            }
+            .btn-store {
+                height: 100%;
+                width: 90px;
+            }
+                
+
+        .bild-mobiles2 {
+            display: flex;
+            align-items: baseline;
+            z-index: 10;
+            grid-column: 6 / -1;
+            grid-row: 2 / -1;
         }
 
 
