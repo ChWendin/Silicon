@@ -476,14 +476,14 @@ padding-top: 1.3rem;
 }
 
 .frame {
-grid-column: 1 / 2;
-grid-row: 1 / 2;
-z-index: 10;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    z-index: 10;
 }
 
 .screen {
     grid-column: 1 / 2;
-grid-row: 1 / 2;
+    grid-row: 1 / 2;
     z-index: 100;
 }
 
@@ -492,6 +492,9 @@ grid-row: 1 / 2;
    margin-right: 2rem;
 }
 
+.mobil3 {
+    display: none;
+}
 
 
 
@@ -659,9 +662,39 @@ padding-right: 2rem;
 
     .div2 p {
             font-size: 18px;
-            
-  
         }
+
+        
+        
+        .mobil {
+            display: none;
+        }
+        .mobil3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .layer {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+        }
+
+            .frame2 {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+            z-index: 10;
+            }
+            
+            .frame-screen {
+                grid-column: 1 / 2;
+                grid-row: 1 / 2;
+                z-index: 100;
+            }
+        
       
             
            
