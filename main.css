@@ -189,7 +189,7 @@ header .container {
 
 
 .headline {
-    font-size: 18px;
+    font-size: 34.1px;
     font-weight: 800;
     color:  #131022;
     display: flex;
@@ -220,7 +220,7 @@ margin: 0;
     align-items: center;
     flex-direction: column;
     gap: 1rem;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 
 #app-google {
@@ -239,8 +239,7 @@ margin: 0;
     height: 50px;
     background-color: var(--color-dark);
     width: 100%;
-    /* margin-left: 1rem;
-    margin-right: 1rem; */
+  
     
     
 
@@ -265,16 +264,6 @@ margin: 0;
     border-radius: 8px;
 }
     
-
-/* .loggos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 1rem; 
-    align-items: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-} */
     
 
  #loggo1 {
@@ -343,9 +332,10 @@ flex-direction: column;
 
 }
 
-.div2 h2 {
+.div2 h1 {
     font-size: 27.9px;
     margin-top: 1rem;
+    font-weight: 800;
 }
 
 .div2 p {
@@ -487,15 +477,33 @@ padding-top: 1.3rem;
     z-index: 100;
 }
 
-.headline3 {
-    margin-left: 2rem;
-   margin-right: 2rem;
+.headline2 {
+    font-weight: 800;
+    font-size: 19px;
 }
+
+.headline3 {
+    margin-left: 1rem;
+   margin-right: 1rem;
+   font-weight: 800;
+}
+
+.headline4 {
+    display: none;
+  }
+  .headline5 {
+    display: none;
+    font-size: 24px;
+  }
 
 .mobil3 {
     display: none;
 }
 
+.lorem {
+    
+    margin-bottom: 3rem;
+}
 
 
 
@@ -552,7 +560,7 @@ padding-right: 2rem;
        
 
         #imgs #app-google {
-            margin-top: 1rem;
+            margin-top: 3rem;
             flex-direction: row;
         }
             
@@ -585,16 +593,20 @@ padding-right: 2rem;
             grid-template-rows: repeat(12, 1fr);
         }
      
-        #headline {
+        
+        .headline {
+        
         margin-top: 0;  
         grid-column: 1 / -1;
         grid-row: 1 / 6;   
         }
         
         #imgs {
-            
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            justify-content: space-between;
             z-index: 100;
-            grid-column: 1 / 5;
+            grid-column: 1 / 6;
             grid-row: 6 / -1; 
         }
         
@@ -694,10 +706,28 @@ padding-right: 2rem;
                 grid-row: 1 / 2;
                 z-index: 100;
             }
+            .headline2 {
+                font-size: 22px;
+                font-weight:bolder;
+            }
+
+            .headline3 {
+                display: none;
+            }
         
-      
+      .headline4 {
+        display: block;
+      }
+      .headline5 {
+        display: none;
+      }
             
-           
+      .text-box {
+        display: flex;
+        flex-direction: column;
+        max-width: 462px;
+
+      }     
             
             
             
@@ -771,21 +801,27 @@ padding-right: 2rem;
         display: none;
         }
 
+        #gradiant {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: auto auto repeat(10, 1fr);
+        }
 
         #headline {
             display: flex;
             justify-content: left;
             align-items: baseline;
-            font-size: 20px;
+            font-size: 56px;
             margin-top: 0;  
             grid-column: 1 / 6;
-            grid-row: 3 / 5;   
-            }
+            grid-row: 4 / 6;   
+        }
+            
             
             #imgs {
                 z-index: 100;
                 grid-column: 1 / 6;
-                grid-row: 5 / -1; 
+                grid-row: 6 / -1; 
                 margin-top: 0;
                 gap: 1.5rem;
                 display: grid;
@@ -820,10 +856,12 @@ padding-right: 2rem;
 
         .bild-mobiles2 {
             display: flex;
-            align-items: baseline;
+            align-items: flex-end;
+           
+
             z-index: 10;
             grid-column: 6 / -1;
-            grid-row: 2 / -1;
+            grid-row: 4 / -1;
         }
 
         #loggo5 {
@@ -881,6 +919,21 @@ padding-right: 2rem;
         .div2 p {
             text-align: left;
         }
+
+        .mobil3 {
+            gap: 4rem;
+        }
+
+    .headline3 {
+        display: none;
+    }
+    
+  .headline4 {
+        display: none;
+  }
+  .headline5 {
+        display: block;
+  }
        
             
 
