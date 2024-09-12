@@ -500,9 +500,17 @@ padding-top: 1.3rem;
     display: none;
 }
 
+.mobil4 {
+    display: none;
+}
+
 .lorem {
     
     margin-bottom: 3rem;
+}
+
+.loremtext2 {
+    display: none;
 }
 
 
@@ -687,6 +695,10 @@ padding-right: 2rem;
             align-items: center;
             margin-top: 1rem;
             margin-bottom: 1rem;
+        }
+
+        .mobil4 {
+            display: none;
         }
 
         .layer {
@@ -921,8 +933,15 @@ padding-right: 2rem;
         }
 
         .mobil3 {
-            gap: 4rem;
+            display: none;
         }
+
+        .mobil4 {
+            display: flex;
+            gap: 6rem;
+        }
+
+       
 
     .headline3 {
         display: none;
@@ -934,7 +953,17 @@ padding-right: 2rem;
   .headline5 {
         display: block;
   }
-       
+  .loremtext {
+    display: none;
+  }
+
+  .loremtext2 {
+    display: block;
+  }
+   
+  .text-box {
+    max-width: 636px;
+  }
             
 
 
