@@ -596,21 +596,22 @@ padding-right: 2rem;
         }
 
         #gradiant {
+            padding-top: 3rem;
             display: grid;
             grid-template-columns: repeat(12, 1fr);
-            grid-template-rows: repeat(12, 1fr);
+            grid-template-rows: auto repeat(11, 1fr);
         }
      
         
         .headline {
-        
+        font-size: 44px;
         margin-top: 0;  
         grid-column: 1 / -1;
-        grid-row: 1 / 6;   
+        grid-row: 2 / 5;   
         }
         
         #imgs {
-            margin-top: 2rem;
+            margin-top: 3rem;
             margin-bottom: 1rem;
             justify-content: space-between;
             z-index: 100;
@@ -619,6 +620,7 @@ padding-right: 2rem;
         }
         
         #bild-mobiles {
+            margin-top: 1rem;
             display: flex;
             align-items: baseline;
             z-index: 10;
