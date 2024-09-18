@@ -674,6 +674,10 @@ padding-top: 1.3rem;
     cursor: pointer;
 }
 
+#sub-knapp-active2 {
+    display: none;
+}
+
 #sub-knapp-active {
     height: 44px;
     width: 44px;
@@ -687,6 +691,27 @@ padding-top: 1.3rem;
     align-items: center;
     cursor: pointer;
     box-shadow: 0px -8px 18px -8px #6366f1e6;
+}
+#sub-knapp-active2 {
+    height: 44px;
+    width: 44px;
+    padding: 12px;
+    color: var(--color-white);
+    border: solid var(--color-primary);
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px -8px 18px -8px #6366f1e6;
+    display: none;
+}
+
+#sub-knapp-inactive2 {
+ 
+    display: none;
+   
 }
     
 
@@ -929,7 +954,26 @@ padding-top: 1.3rem;
     }
    
    
-   
+    .headline-faq {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        max-width: 416px;
+        margin-bottom: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .headline-faq h2 {
+        font-size: 32px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .headline-faq span {
+       font-size: 18px; 
+    }
    
    
    .card-faq-container {
@@ -955,21 +999,44 @@ padding-top: 1.3rem;
 
     .card-faq {
         border-radius: 8px;
+        box-shadow: 0px 4.4px 12px -1px rgba(19, 16, 34, 0.06), 0px 2px 6.4px -1px rgba(19, 16, 34, 0.03);
     }
 
     .tablet-flex {
         border: none;
     }
     
-        
+    #sub-knapp-inactive {
+        display: none;
+    }  
 
+    #sub-knapp-inactive2 {
+        height: 44px;
+        width: 44px;
+        padding: 12px;
+        border: solid var(--color-light-blue);
+        background-color: var(--color-light-blue);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer; 
+    }
+
+     #sub-knapp-active2 {
+        display: block;
+     }  
        
-       
-        
+     #sub-knapp-active {
+        display: none;  
+    } 
 
     .card-faq-active {
         border: 1px solid var(--color-light-grey);
+        border-radius: 8px;
+        box-shadow: 0px 4.4px 12px -1px rgba(19, 16, 34, 0.06), 0px 2px 6.4px -1px rgba(19, 16, 34, 0.03);
     }
+
     .card-faq-active p {
        padding-left: 1rem;
        padding-right: 1rem;
@@ -1023,7 +1090,11 @@ padding-top: 1.3rem;
         min-width: 300px;
         margin-right: 1rem;
     }
-         
+       
+    .sub-btn {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
        
     
             
