@@ -543,9 +543,7 @@ padding-top: 1.3rem;
 
 
 
-/* .card-faq-container {
-    border: 1px solid var(--color-light-grey);
-} */
+
 .card-faq {
     border: 1px solid var(--color-light-grey);
     display: flex;
@@ -569,7 +567,7 @@ padding-top: 1.3rem;
 
 #card-faq1 {
     border-radius: 7px 7px 0 0;
-    overflow: hidden;
+    
 }
 
     
@@ -645,8 +643,9 @@ padding-top: 1.3rem;
 
 #sub-knapp-active {
     height: 44px;
-    width: 49px;
+    width: 44px;
     padding: 12px;
+    color: var(--color-white);
     border: solid var(--color-primary);
     background-color: var(--color-primary);
     border-radius: 50%;
@@ -654,8 +653,11 @@ padding-top: 1.3rem;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    box-shadow: 0px -8px 18px -8px
+    box-shadow: 0px -8px 18px -8px #6366f1e6;
 }
+    
+
+
 
 .form-input {
     font-size: 1rem;
