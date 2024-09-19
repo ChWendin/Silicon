@@ -546,7 +546,15 @@ padding-top: 1.3rem;
 }    
 
 
-
+.container-faq {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
@@ -594,7 +602,9 @@ padding-top: 1.3rem;
     border-radius: 0 0 7px 7px;
 }
 
-
+.hidden {
+    display: none;
+}
 
 
 
@@ -603,7 +613,7 @@ padding-top: 1.3rem;
     justify-content: center;
     align-items: center;
     margin-top: 4rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 3rem;
 }
 
 .btn-faq{
@@ -1071,10 +1081,11 @@ padding-top: 1.3rem;
         align-items: center;
         flex-direction: row;
         align-items: center;
+        justify-content: space-between;
     }
 
     .sub-flex {
-        
+       
         gap: 2rem;
         margin-bottom: 3rem;
         margin-top: 2rem;
@@ -1087,7 +1098,7 @@ padding-top: 1.3rem;
     
      
     .sub-form {
-        min-width: 300px;
+        width: 33vh;
         margin-right: 1rem;
     }
        
@@ -1518,14 +1529,90 @@ position: relative;
     color: var(--color-grey);
 }
    
+.container-faq {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr) auto auto auto auto 1fr 1fr;
+    max-width: 1300px;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
    
-    
+.headline-faq {
+    grid-column: 1 / 5;
+    grid-row: 1 / 3;
+    margin-bottom: 0;
+    justify-content: left;
+    text-align: left;
+}
+.headline-faq h2 {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    padding-right: 5rem;
+}
             
+.card-faq-container {
+    grid-column: 6 / -1;
+    grid-row: 1 / 6;
+    margin-bottom: 0;
+}
+
+.kontaktkort-wrapper {
+    grid-column: 1 / 6;
+    grid-row: 2 / 4;
+    margin-top: 6rem;
+    margin-right: 6rem;
+    gap: 1rem;
+    margin-bottom: 0;
+    
+}
+.kontaktkort-faq {
+    padding: 1rem;
+}
+
+.sub-container {
+    grid-column: 1 / -1;
+    grid-row: 11 / -1;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}   
+
+.sub-headline {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+
+.hidden {
+    display: block;
+}
+
+
+.sub-form {
+    width: 42vh;
+}
+.sub-flex {
+    width: 100%
+}
+
+.sub-btn {
+    width: 35%;
+}
 
 
 
 
-        .footer {
+
+
+.footer {
             display: flex;
             justify-content: center;
             gap: 4px;
