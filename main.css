@@ -40,8 +40,12 @@ html {
     --color-border: #9397ad28;
     --color-text: rgba(255, 255, 255, 0.70);
     --color-headline: #fff;
-
 }
+
+
+
+
+    
 
 body, section, div, header, footer, main, aside, nav, blockquote, p, span {
     margin: 0;
@@ -99,12 +103,24 @@ a:hover {
    background-color: hsl(239, 84%, 70%);
 }
 
+.main-logga {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: .5rem;
+}
+
+.main-logga span {
+    font-size: 18px;
+    font-weight: 800;
+}
+
 .mobile-menu {
     background-color: transparent;
     border: none;
     font-size: 2rem;
-    
 }
+    
 
 
 
@@ -116,6 +132,7 @@ a:hover {
 
 .btn-toggle-switch .label {
 display: none;
+color: #565973;
 }
 
 .toggle-switch {
@@ -202,6 +219,7 @@ border-radius: 50%;
 header .container {
     display: grid;
     align-items: center;
+    
     grid-template-columns: 1fr auto auto;
     gap: 1.5rem;
 }
@@ -290,7 +308,7 @@ margin: 0;
 .loggo-banner {
     
     border: solid 1px var(--color-border);
-    background-color: var(--color-secondary-bg);
+    background-color: var(--color-card-fill);
     height: 98.54px;
     width: 100%;
     border-radius: 8px;
@@ -323,8 +341,8 @@ margin: 0;
     height: 44px;
     width: 44px;
     padding: 12px;
-    border: solid white;
-    background-color: white;
+    border: var(--color-btn-secondary);
+    background-color: var(--color-btn-secondary);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -339,12 +357,14 @@ margin: 0;
     margin-top: 1rem;
     margin-bottom: 1rem;
     gap: 1rem;
-    
-    
 }
+
+
+    
+    
 .knapp p {
     font-size: 14px;
-    color: #585C7B;
+    color:var(--color-text)
     
 }
 
@@ -715,7 +735,7 @@ padding-top: 1.3rem;
     height: 44px;
     width: 44px;
     padding: 12px;
-    border: solid var(--color-btn-secondary);
+    border:  var(--color-btn-secondary);
     background-color: var(--color-btn-secondary);
     border-radius: 50%;
     display: flex;
@@ -724,9 +744,9 @@ padding-top: 1.3rem;
     cursor: pointer;
 }
 
-#sub-knapp-active2 {
+/* #sub-knapp-active2 {
     display: none;
-}
+} */
 
 #sub-knapp-active {
     height: 44px;
@@ -759,7 +779,7 @@ padding-top: 1.3rem;
 }
 
 #sub-knapp-inactive2 {
- 
+    
     display: none;
    
 }
@@ -1077,7 +1097,7 @@ padding-top: 1.3rem;
     .tablet-text {
         display: block;
         color: var(--color-text);
-        background-color: var(--color-secondary-bg);
+        background-color: var(--color-card-fill);
     }
 
     .card-faq {
@@ -1097,8 +1117,8 @@ padding-top: 1.3rem;
         height: 44px;
         width: 44px;
         padding: 12px;
-        border: solid var(--color-light-blue);
-        background-color: var(--color-light-blue);
+        border: var(--color-btn-secondary);
+        background-color: var(--color-btn-secondary);
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -1676,6 +1696,14 @@ position: relative;
     flex-direction: column;
     width: 100%; 
 }
+
+/* #sub-knapp-inactive2 {
+    
+    display: flex;
+    background-color: var(--color-btn-secondary);
+    border: var(--color-btn-secondary);
+   
+} */
 
 .hidden {
     display: block;
