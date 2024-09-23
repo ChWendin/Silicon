@@ -14,6 +14,8 @@
 --color-btn-secondary: #f3f6ff;    
 --color-card-fill: #ffffff;
 --color-border:  #E2E5F1;
+--color-text: #585C7B;
+--color-headline: #131022;
 }
 
 * {
@@ -36,6 +38,8 @@ html {
     --color-btn-secondary: #6366f114;
     --color-card-fill: #ffffff0a;
     --color-border: #9397ad28;
+    --color-text: rgba(255, 255, 255, 0.70);
+    --color-headline: #fff;
 
 }
 
@@ -285,7 +289,8 @@ margin: 0;
 
 .loggo-banner {
     
-    border: solid 1px var(--color-light-grey);
+    border: solid 1px var(--color-border);
+    background-color: var(--color-secondary-bg);
     height: 98.54px;
     width: 100%;
     border-radius: 8px;
@@ -367,7 +372,7 @@ flex-direction: column;
 
 .div2 p {
     text-align: center;
-    color: #585C7B;
+    color: var(--color-text);
     font-size: 18px;
     font-weight: 400;
 }
@@ -391,7 +396,7 @@ flex-direction: column;
     font-size: 16px;
     font-weight: 400;
     margin-top: 1rem;
-    
+    color: var(--color-text);
     
     
 }
@@ -536,8 +541,13 @@ padding-top: 1.3rem;
     margin-bottom: 3rem;
 }
 
+.loremtext {
+    color: #585C7B;
+}
+
 .loremtext2 {
     display: none;
+    color: #585C7B;
 }
 
 .section-grid {
@@ -560,6 +570,7 @@ padding-top: 1.3rem;
 }
 .headline-faq span {
    font-size: 18px; 
+   color: #585C7B;
 }
 
 .tablet-flex {
@@ -610,7 +621,7 @@ padding-top: 1.3rem;
     flex-direction: column;
     gap: 1rem;
     font-size: 14px;
-    color: #585C7B;
+    color: var(--color-text)
 }
 .card-faq-active span {
     font-weight: 600;
@@ -683,7 +694,7 @@ padding-top: 1.3rem;
 .sub-headline p {
     font-size: 22px;
     font-weight: 800;
-    color: var(--color-dark);
+    color: var(--color-headline);
 }
 
 .sub-container {
@@ -764,6 +775,9 @@ padding-top: 1.3rem;
     border-radius: 0.5em 0 0 0.5em;
     outline: none;
     background-color: var(--color-card-fill);
+    font-family: FontAwesome;
+    
+    
 
     &focus {
         outline: var(--color-primary);
@@ -802,6 +816,29 @@ padding-top: 1.3rem;
     padding-left: 2rem;
     padding-right: 2rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -907,7 +944,8 @@ padding-top: 1.3rem;
             justify-content: center;
             align-items: center;
             border-radius: 8px;
-         }
+        }
+            
         
          .loggos {
             display: flex;
@@ -918,6 +956,8 @@ padding-top: 1.3rem;
             margin-top: 1rem;
             margin-bottom: 2rem;
         }
+
+
        
          
         .loggos button {
@@ -1036,6 +1076,8 @@ padding-top: 1.3rem;
 
     .tablet-text {
         display: block;
+        color: var(--color-text);
+        background-color: var(--color-secondary-bg);
     }
 
     .card-faq {
@@ -1073,7 +1115,7 @@ padding-top: 1.3rem;
     } 
 
     .card-faq-active {
-        border: 1px solid var(--color-light-grey);
+        border: 1px solid var(--color-border);
         border-radius: 8px;
         box-shadow: 0px 4.4px 12px -1px rgba(19, 16, 34, 0.06), 0px 2px 6.4px -1px rgba(19, 16, 34, 0.03);
     }
@@ -1092,13 +1134,17 @@ padding-top: 1.3rem;
     }   
     
     .kontaktkort-faq {
-        border: 1px solid var(--color-light-grey);
+        border: 1px solid var(--color-border);
         border-radius: 8px;
         width: 100%;
         display: flex;
         flex-direction: column;
         gap: 1rem;
         padding: 2rem;
+    }
+
+    .kontaktkort-faq p {
+        color: #565973;
     }
         
     .kontakt-icon {
@@ -1131,12 +1177,16 @@ padding-top: 1.3rem;
     .sub-form {
         width: 33vh;
         margin-right: 1rem;
+        
+
     }
        
     .sub-btn {
         padding-left: 22px;
         padding-right: 22px;
     }
+
+   
        
     
             
@@ -1397,6 +1447,7 @@ padding-top: 1.3rem;
 .icon-text {
     display: flex;
     gap: 0.5rem;
+    color: var(--color-text);
 }
 
 .text-gap {
@@ -1441,6 +1492,7 @@ padding-top: 1.3rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    color: var(--color-text);
 }
 
 
@@ -1537,6 +1589,7 @@ position: relative;
 .review-text {
     padding-right: 1rem;
     font-size: 18px;
+    color: var(--color-text);
     
 }
 
