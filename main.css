@@ -16,6 +16,8 @@
 --color-border:  #E2E5F1;
 --color-text: #585C7B;
 --color-headline: #131022;
+--color-btn-store: #131022;
+--color-btn-storetext: #fff;
 }
 
 * {
@@ -40,6 +42,8 @@ html {
     --color-border: #9397ad28;
     --color-text: rgba(255, 255, 255, 0.70);
     --color-headline: #fff;
+    --color-btn-store: #fff;
+    --color-btn-storetext: #131022;
 }
 
 
@@ -254,13 +258,13 @@ margin: 0;
 
     
 
-#gradiant p {
+/* #gradiant p {
     text-align: center;
     color: #585C7B;
     font-size: 18px;
     font-weight: 400;
     margin: 1rem;
-}
+} */
 
 
 .imgs {
@@ -269,8 +273,14 @@ margin: 0;
     align-items: center;
     flex-direction: column;
     gap: 1rem;
-    /* margin-top: 1rem; */
+    margin-top: 2rem;
+    text-align: center;
 }
+
+.imgs p {
+    color: var(--color-text);
+}
+    
 
 #app-google {
     display: flex;
@@ -279,22 +289,62 @@ margin: 0;
     flex-direction: column;
     gap: 1rem;
     width: 100%;
+    margin-top: 2rem;
 }
     
 .btn {
     background: transparent;
-    border: var(--color-dark) solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: left;
+    font-size: 2.5rem;
+    /* border: var(--color-dark) solid; */
     border-radius: 8px;
     height: 50px;
-    background-color: var(--color-dark);
+    background-color: var(--color-btn-store);
     width: 100%;
-  
-    
-    
-
     cursor: pointer;
     overflow:hidden;
 }
+
+.btn a {
+    color: var(--color-btn-storetext);
+}
+  
+.google {
+    margin: 0;  
+}
+
+.apple {
+    margin: 0;
+}
+
+.btn .apple .size1 {
+    font-size: .75rem;
+    color: var(--color-btn-storetext);
+}
+.btn .apple .size2{
+   font-size: 1.3rem;
+   font-weight: 400;
+   color: var(--color-btn-storetext);
+}
+.btn .google .size1 {
+    font-size: .75rem;
+    color: var(--color-btn-storetext);
+}
+.btn .google .size2{
+   font-size: 1.3rem;
+   font-weight: 400;
+   color: var(--color-btn-storetext);
+}
+
+ 
+    
+
+    
+
    
 .bild-mobiles {
     display: none;
@@ -877,20 +927,42 @@ padding-top: 1.3rem;
        
 
         #imgs #app-google {
-            margin-top: 3rem;
+            margin-top: 2rem;
             flex-direction: row;
         }
             
 
         .btn {
             height: 44px;
+            gap: .5rem;
+            font-size: 1.8rem;
+        }
+
+        .btn .apple .size1 {
+            font-size: .5rem;
+            color: var(--color-btn-storetext);
+        }
+        .btn .apple .size2{
+           font-size: .8rem;
+           font-weight: 600;
+            width: 100%;
+           color: var(--color-btn-storetext);
+        }
+        .btn .google .size1 {
+            font-size: .5rem;
+            color: var(--color-btn-storetext);
+        }
+        .btn .google .size2{
+           font-size: .8rem;
+           font-weight: 600;
+           width: 100%;
+           color: var(--color-btn-storetext);
         }
             
             
 
         .btn-store {
-            height: 100%;
-            width: 90px;
+            margin-top: 8px;
         }
 
         #gradiant p {
@@ -1301,7 +1373,7 @@ padding-top: 1.3rem;
                 grid-template-rows: auto auto 1fr;
             }
 
-            #imgs p {
+            .imgs p {
             padding-right: 4rem;
             }
             #app-google {
@@ -1316,15 +1388,39 @@ padding-top: 1.3rem;
                 
             
             
-            
+        
+    
+            .btn .apple .size1 {
+                font-size: .6rem;
+                padding-right: 0;
+                color: var(--color-btn-storetext);
+            }
+            .btn .apple .size2{
+               font-size: 1rem;
+               padding-right: 0;
+               font-weight: 600;
+                width: 100%;
+               color: var(--color-btn-storetext);
+            }
+            .btn .google .size1 {
+                font-size: .6rem;
+                padding-right: 0;
+                color: var(--color-btn-storetext);
+            }
+            .btn .google .size2{
+               font-size: 1rem;
+               padding-right: 0;
+               font-weight: 600;
+               width: 100%;
+               color: var(--color-btn-storetext);
+            }
+
             .btn {
                 height: 44px;
                 max-width: 180px;
             }
-            .btn-store {
-                height: 100%;
-                width: 90px;
-            }
+                
+            
                 
 
         .bild-mobiles2 {
